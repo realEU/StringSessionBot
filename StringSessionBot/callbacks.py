@@ -1,7 +1,9 @@
+import traceback
+
 from Data import Data
 from pyrogram import Client
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
-from StringSessionBot.generate import generate_session, ERROR_MESSAGE
+from StringSessionBot.generate import generate_session
 
 
 # Callbacks
@@ -57,4 +59,11 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             else:
                 await generate_session(bot, callback_query.message, telethon=True)
         except Exception as e:
+            print(traceback.format_exc())
+            print(e)
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
+
+
+ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
+            "\n\nPlease forward this to @MarineChats if this message doesn't contain any " \
+            "sensitive information and for your information : **These kinda error logs are not stored in our database!**"
