@@ -50,15 +50,15 @@ BTW, if you don’t trust me, you can host [one] like me using my source code pr
 
     # About Message
     ABOUT = """
-**About Me** 
+**• About Me •** 
 
-A telegram bot to generate pyrogram and telethon string session...
+• A telegram bot to generate pyrogram and telethon string session...
 
-Source Code : [Click Here](https://github.com/realeu/StringSessionBot)
+» Source Code : [Click Here](https://github.com/realeu/StringSessionBot)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+» Framework : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+» Language : [Python](www.python.org)
 
-Support Chat : [🖤 Marine Chats 🖤](https://telegram.me/MarineChats)
+» Support Chat : [Marine Chats](https://telegram.me/MarineChats)
     """
