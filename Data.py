@@ -54,11 +54,11 @@ BTW, if you don’t trust me, you can host [one] like me using my source code pr
 
 A telegram bot to generate pyrogram and telethon string session...
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+Source Code : [Click Here](https://github.com/realeu/StringSessionBot)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Support Chat : [MarineChats 🦋](https://telegram.me/MarineChats)
+Support Chat : [🖤 Marine Chats 🖤](https://telegram.me/MarineChats)
     """
